@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(212, 133, 186);
+
+}
+
+#A1{
+    background-color: rgb(208, 224, 64);
+    padding: 10px 10px 10px 10px;
+    border:  10px solid rgb(6, 6, 53);
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    height: auto;
+    overflow: auto;
+}
+#A2{
+    background-color: rgb(208, 224, 64);
+    padding: 10px 10px 10px 10px;
+    border:  10px solid rgb(6, 6, 53);
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    height: auto;
+    overflow: auto;
+}
+#A3{
+    background-color: rgb(208, 224, 64);
+    padding: 10px 10px 10px 10px;
+    border:  10px solid rgb(6, 6, 53);
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    height: auto;
+    overflow: auto;
+    
+}
+p {
+
+    width: 7%;
+    border:  3px solid black; 
+    float: right;
+    background-color: rgb(212, 133, 186);
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #A1 {
+        width: 50%;
+    }
+
+    #A1{
+        width: auto;
+        height: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #A2 {
+        width: 50%;
+    }
+
+    #A2{
+        width: auto;
+        height: auto;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #A3 {
+        width: 50%;
+    }
+
+    #A3{
+        width: auto;
+        height: auto;
+}
